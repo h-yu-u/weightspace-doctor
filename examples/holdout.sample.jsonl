@@ -1,0 +1,42 @@
+{"id": "holdout-target-001", "prompt": "Compute 400+5. Return only the integer.", "expected": "405", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-002", "prompt": "Compute 401+6. Return only the integer.", "expected": "407", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-003", "prompt": "Compute 402+7. Return only the integer.", "expected": "409", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-004", "prompt": "Compute 403+8. Return only the integer.", "expected": "411", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-005", "prompt": "Compute 404+9. Return only the integer.", "expected": "413", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-006", "prompt": "Compute 405+10. Return only the integer.", "expected": "415", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-007", "prompt": "Compute 406+11. Return only the integer.", "expected": "417", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-008", "prompt": "Compute 407+12. Return only the integer.", "expected": "419", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-009", "prompt": "Compute 408+13. Return only the integer.", "expected": "421", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-010", "prompt": "Compute 409+14. Return only the integer.", "expected": "423", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-011", "prompt": "Compute 410+15. Return only the integer.", "expected": "425", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-012", "prompt": "Compute 411+16. Return only the integer.", "expected": "427", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-013", "prompt": "Compute 412+17. Return only the integer.", "expected": "429", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-014", "prompt": "Compute 413+18. Return only the integer.", "expected": "431", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-015", "prompt": "Compute 414+19. Return only the integer.", "expected": "433", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-016", "prompt": "Compute 415+20. Return only the integer.", "expected": "435", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-017", "prompt": "Compute 416+21. Return only the integer.", "expected": "437", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-018", "prompt": "Compute 417+22. Return only the integer.", "expected": "439", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-019", "prompt": "Compute 418+23. Return only the integer.", "expected": "441", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-020", "prompt": "Compute 419+24. Return only the integer.", "expected": "443", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-021", "prompt": "Compute 420+25. Return only the integer.", "expected": "445", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-022", "prompt": "Compute 421+26. Return only the integer.", "expected": "447", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-023", "prompt": "Compute 422+27. Return only the integer.", "expected": "449", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-024", "prompt": "Compute 423+28. Return only the integer.", "expected": "451", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-025", "prompt": "Compute 424+29. Return only the integer.", "expected": "453", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-026", "prompt": "Compute 425+30. Return only the integer.", "expected": "455", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-027", "prompt": "Compute 426+31. Return only the integer.", "expected": "457", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-028", "prompt": "Compute 427+32. Return only the integer.", "expected": "459", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-029", "prompt": "Compute 428+33. Return only the integer.", "expected": "461", "split": "target", "tags": ["math"]}
+{"id": "holdout-target-030", "prompt": "Compute 429+34. Return only the integer.", "expected": "463", "split": "target", "tags": ["math"]}
+{"id": "holdout-guard-001", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 1). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-002", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 2). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-003", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 3). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-004", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 4). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-005", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 5). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-006", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 6). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-007", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 7). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-008", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 8). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-009", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 9). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-010", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 10). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-011", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 11). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "holdout-guard-012", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 12). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}

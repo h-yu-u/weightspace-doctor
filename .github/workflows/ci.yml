@@ -1,0 +1,39 @@
+name: Python unit tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    name: CPU / Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install lightweight project + test tools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e '.[dev]'
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Compile
+        run: python -m compileall -q src
+      - name: Unit tests (no model downloads)
+        run: pytest -q
+      - name: Quick offline CLI smoke test
+        run: |
+          wspace demo --out /tmp/wspace-demo
+          wspace scan --traces /tmp/wspace-demo/traces.jsonl --out /tmp/wspace-report
+          test -s /tmp/wspace-report/report.md
+          test -s /tmp/wspace-report/diagnosis.json

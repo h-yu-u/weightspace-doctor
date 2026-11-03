@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+results/
+runs/
+*.safetensors
+*.pt
+*.pth
+*.gguf
+*.npz
+.DS_Store
+.env
+
+# Local generated demo artifacts
+_demo/

@@ -1,0 +1,6 @@
+{"id": "sm-math-1", "prompt": "What is 12 + 30? Respond with digits only.", "expected": "42", "split": "target", "tags": ["math", "short"]}
+{"id": "sm-math-2", "prompt": "What is 9 * 9? Respond with digits only.", "expected": "81", "split": "target", "tags": ["math", "short"]}
+{"id": "sm-math-3", "prompt": "What is 100 - 23? Respond with digits only.", "expected": "77", "split": "target", "tags": ["math", "short"]}
+{"id": "sm-math-4", "prompt": "What is 144 / 12? Respond with digits only.", "expected": "12", "split": "target", "tags": ["math", "short"]}
+{"id": "sm-format-json", "prompt": "Return exactly valid JSON with key result and integer value 3.", "expected_regex": "^\\s*\\{[^}]+\\}\\s*$", "split": "guard", "tags": ["json"]}
+{"id": "sm-guard-1", "prompt": "Reply with exactly one word: OK", "expected": "OK", "split": "guard", "tags": ["instruction"]}

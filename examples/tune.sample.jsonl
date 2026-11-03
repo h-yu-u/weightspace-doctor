@@ -1,0 +1,36 @@
+{"id": "tune-target-001", "prompt": "Compute 200+5. Return only the integer.", "expected": "205", "split": "target", "tags": ["math"]}
+{"id": "tune-target-002", "prompt": "Compute 201+6. Return only the integer.", "expected": "207", "split": "target", "tags": ["math"]}
+{"id": "tune-target-003", "prompt": "Compute 202+7. Return only the integer.", "expected": "209", "split": "target", "tags": ["math"]}
+{"id": "tune-target-004", "prompt": "Compute 203+8. Return only the integer.", "expected": "211", "split": "target", "tags": ["math"]}
+{"id": "tune-target-005", "prompt": "Compute 204+9. Return only the integer.", "expected": "213", "split": "target", "tags": ["math"]}
+{"id": "tune-target-006", "prompt": "Compute 205+10. Return only the integer.", "expected": "215", "split": "target", "tags": ["math"]}
+{"id": "tune-target-007", "prompt": "Compute 206+11. Return only the integer.", "expected": "217", "split": "target", "tags": ["math"]}
+{"id": "tune-target-008", "prompt": "Compute 207+12. Return only the integer.", "expected": "219", "split": "target", "tags": ["math"]}
+{"id": "tune-target-009", "prompt": "Compute 208+13. Return only the integer.", "expected": "221", "split": "target", "tags": ["math"]}
+{"id": "tune-target-010", "prompt": "Compute 209+14. Return only the integer.", "expected": "223", "split": "target", "tags": ["math"]}
+{"id": "tune-target-011", "prompt": "Compute 210+15. Return only the integer.", "expected": "225", "split": "target", "tags": ["math"]}
+{"id": "tune-target-012", "prompt": "Compute 211+16. Return only the integer.", "expected": "227", "split": "target", "tags": ["math"]}
+{"id": "tune-target-013", "prompt": "Compute 212+17. Return only the integer.", "expected": "229", "split": "target", "tags": ["math"]}
+{"id": "tune-target-014", "prompt": "Compute 213+18. Return only the integer.", "expected": "231", "split": "target", "tags": ["math"]}
+{"id": "tune-target-015", "prompt": "Compute 214+19. Return only the integer.", "expected": "233", "split": "target", "tags": ["math"]}
+{"id": "tune-target-016", "prompt": "Compute 215+20. Return only the integer.", "expected": "235", "split": "target", "tags": ["math"]}
+{"id": "tune-target-017", "prompt": "Compute 216+21. Return only the integer.", "expected": "237", "split": "target", "tags": ["math"]}
+{"id": "tune-target-018", "prompt": "Compute 217+22. Return only the integer.", "expected": "239", "split": "target", "tags": ["math"]}
+{"id": "tune-target-019", "prompt": "Compute 218+23. Return only the integer.", "expected": "241", "split": "target", "tags": ["math"]}
+{"id": "tune-target-020", "prompt": "Compute 219+24. Return only the integer.", "expected": "243", "split": "target", "tags": ["math"]}
+{"id": "tune-target-021", "prompt": "Compute 220+25. Return only the integer.", "expected": "245", "split": "target", "tags": ["math"]}
+{"id": "tune-target-022", "prompt": "Compute 221+26. Return only the integer.", "expected": "247", "split": "target", "tags": ["math"]}
+{"id": "tune-target-023", "prompt": "Compute 222+27. Return only the integer.", "expected": "249", "split": "target", "tags": ["math"]}
+{"id": "tune-target-024", "prompt": "Compute 223+28. Return only the integer.", "expected": "251", "split": "target", "tags": ["math"]}
+{"id": "tune-guard-001", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 1). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-002", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 2). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-003", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 3). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-004", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 4). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-005", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 5). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-006", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 6). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-007", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 7). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-008", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 8). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-009", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 9). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-010", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 10). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-011", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 11). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}
+{"id": "tune-guard-012", "prompt": "Write the uppercase form of the ASCII word 'sun' (example 12). Return exactly one word.", "expected": "SUN", "split": "guard", "tags": ["instruction"]}

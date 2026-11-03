@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weightspace-doctor"
+version = "0.1.0"
+description = "Gradient-free model diagnostics, contrastive weight localization and reversible sparse patches"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "WeightSpace Doctor contributors"}]
+keywords = ["llm", "interpretability", "weight-editing", "diagnostics", "repair"]
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+hf = ["torch>=2.2", "transformers>=5.11,<6", "accelerate>=1.0", "safetensors>=0.4"]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[project.scripts]
+wspace = "weightspace_doctor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+exclude = [".venv", "dist"]
